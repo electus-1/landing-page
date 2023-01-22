@@ -75,3 +75,42 @@ html {
     justify-content: center;
     align-items: flex-start;
 }
+
+.customers-section {
+    margin-top: 96px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.cards {
+    margin: 0px 48px 0px 48px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 96px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+    font-size: 18px;
+}
+
+.card-image {
+    border: 4px solid #3882f6;
+    border-radius: 25px;
+    padding: 25px;
+}
+
+.information-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: extra-bold;
+}
